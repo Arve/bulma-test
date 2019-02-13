@@ -1,3 +1,17 @@
 @import 'node_modules/bulma/bulma.sass';
 @import "helpers.scss";
 
+.video_insert {
+    min-width: 100%; 
+    min-height: 100%;
+    max-width: unset!important;
+    max-height: unset!important;
+    width: auto; 
+    height: auto;
+    background-size: cover;
+}
+
+#bgvid {
+    max-width: unset!important;
+    max-height: unset!important;
+}
